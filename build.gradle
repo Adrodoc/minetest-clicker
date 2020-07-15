@@ -4,6 +4,7 @@ plugins {
 apply plugin: 'eclipse'
 apply plugin: 'java'
 apply plugin: 'application'
+mainClassName = 'de.adrodoc.minetest.clicker.MinetestClickerMain'
 
 repositories {
   mavenCentral()
