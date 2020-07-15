@@ -6,6 +6,10 @@ apply plugin: 'java'
 apply plugin: 'application'
 mainClassName = 'de.adrodoc.minetest.clicker.MinetestClickerMain'
 
+application {
+    applicationDefaultJvmArgs = ['-Djdk.gtk.version=2']
+}
+
 repositories {
   mavenCentral()
 }
